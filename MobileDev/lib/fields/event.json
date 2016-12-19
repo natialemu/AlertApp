@@ -1,0 +1,38 @@
+[
+    {
+        "key": ["id"],
+        "label": "Event ID",
+        "category": "Event",
+        "subcategory": "General",
+        "type": "text/plain",
+        "readonly": true
+    },
+    {
+        "key": ["name"],
+        "label": "Event name",
+        "category": "Event",
+        "subcategory": "General",
+        "type": "text/plain"
+    },
+    {
+        "key": ["description"],
+        "label": "Description",
+        "category": "Event",
+        "subcategory": "General",
+        "type": "text/plain"
+    },
+    {
+        "key": ["start_time"],
+        "label": "Start Time",
+        "category": "Event",
+        "subcategory": "General",
+        "type": "date/unix"
+    },
+    {
+        "key": ["end_time"],
+        "label": "Start Time",
+        "category": "Event",
+        "subcategory": "General",
+        "type": "date/unix"
+    }
+]

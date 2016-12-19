@@ -1,0 +1,18 @@
+[
+    {
+        "key": ["id"],
+        "label": "Account ID",
+        "category": "Account",
+        "subcategory": "General",
+        "type": "text/plain",
+        "readonly": true
+    },
+    {
+        "key": ["name"],
+        "label": "Account Name",
+        "category": "Account",
+        "subcategory": "General",
+        "type": "text/plain",
+        "readonly": true
+    }
+]

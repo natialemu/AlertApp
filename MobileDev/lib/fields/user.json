@@ -1,0 +1,16 @@
+[
+    {
+        "key": ["id"],
+        "label": "User ID",
+        "subcategory": "General",
+        "type": "text/plain",
+        "readonly": true
+    },
+    {
+        "key": ["name"],
+        "label": "Username",
+        "category": "User",
+        "subcategory": "General",
+        "type": "text/plain"
+    }
+]

@@ -1,0 +1,42 @@
+{
+  "name": "mobileDev",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --sourcemap-output android/app/src/main/assets/index.android.map --assets-dest android/app/src/main/res/"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "immutable": "^3.8.1",
+    "lodash": "^4.15.0",
+    "moment": "^2.16.0",
+    "moment-timezone": "^0.5.9",
+    "normalizr": "^2.2.1",
+    "react": "15.4.0",
+    "react-mixin": "3.0.5",
+    "react-native": "0.39.0",
+    "react-native-button": "^1.7.1",
+    "react-native-push-notification": "^2.0.2",
+    "react-native-router-flux": "^3.37.0",
+    "react-redux": "^4.4.6",
+    "react-timer-mixin": "^0.13.3",
+    "redux": "^3.6.0",
+    "redux-action-buffer": "^1.0.1",
+    "redux-logger": "^2.7.4",
+    "redux-persist": "^4.0.0-alpha6",
+    "redux-persist-transform-immutable": "^4.1.0",
+    "redux-saga": "^0.11.1",
+    "reselect": "^2.5.3",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.4.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "mocha": "^3.0.2"
+  }
+}
